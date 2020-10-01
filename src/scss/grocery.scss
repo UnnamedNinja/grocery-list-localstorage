@@ -1,0 +1,25 @@
+
+
+.grocery-page {
+       padding-top: 50px;
+       .grocery {
+              border: 2px solid rgba(0, 0, 0, 0.288);
+              padding: 20px;
+       }
+       .status-and-priority {
+              display: flex;
+              justify-content: space-between;
+              max-width: 50%;
+              margin: 30px auto;
+              font-size: 20px;
+       }
+       .grocery-btns {
+              max-width: 30%;
+              margin: 50px auto;
+              display: flex;
+              justify-content: space-around;
+              button {
+                     border-color: black;
+              }
+       }
+}

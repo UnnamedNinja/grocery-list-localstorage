@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+}
+
+.grocery-list-page {
+  padding-top: 50px;
+}
+
+.grocery-list-page .grocery-list {
+  max-width: 700px;
+  border: 2px solid rgba(0, 0, 0, 0.288);
+  margin: 50px auto;
+  list-style: none;
+  padding: 20px 10px;
+  position: relative;
+}
+
+.grocery-list-page ul {
+  padding: 0;
+}
+
+.grocery-list-page .grocery-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 10px;
+  transition: .3s;
+}
+
+.grocery-list-page .grocery-item:hover {
+  background-color: rgba(0, 0, 0, 0.356);
+}
+
+.grocery-list-page .grocery-item select {
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.grocery-list-page .grocery-item .grocery-name {
+  color: black;
+  font-weight: 500;
+  width: 30%;
+}
+
+.grocery-list-page .grocery-item button {
+  background-color: rgba(255, 0, 0, 0.658);
+  color: black;
+  border: 1px solid black;
+}
+
+.grocery-list-page .grocery-item button:hover {
+  background-color: rgba(155, 1, 1, 0.719);
+}
+
+.grocery-list-page .add-grocery {
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+  border: 2px solid rgba(0, 0, 0, 0.288);
+  padding: 20px;
+}
+
+.grocery-list-page .error-message {
+  display: none;
+}
+
+.grocery-list-page select[name="filter"] {
+  position: absolute;
+  right: 0;
+  top: -50px;
+  padding: 5px;
+  font-size: 20px;
+}
+/*# sourceMappingURL=index.css.map */

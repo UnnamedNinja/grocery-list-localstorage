@@ -1,0 +1,65 @@
+body {
+       margin: 0;
+}
+
+.grocery-list-page {
+       padding-top: 50px;
+       .grocery-list {
+              max-width: 700px;
+              border: 2px solid rgba(0, 0, 0, 0.288);
+              margin: 50px auto;
+              list-style: none;
+              padding: 20px 10px;
+              position: relative;
+       }
+       ul {
+              padding: 0;
+       }
+       .grocery-item {
+              display: flex;
+              justify-content: space-around;
+              align-items: center;
+              margin-bottom: 15px;
+              padding: 10px;
+              transition: .3s;
+              &:hover {
+                     background-color: rgba(0, 0, 0, 0.356);
+              }
+              select {
+                     border-radius: 3px;
+                     padding: 5px;
+              }
+              .grocery-name {
+                     color: black;
+                     font-weight: 500;
+                     width: 30%;
+              }
+              button {
+                     background-color: rgba(255, 0, 0, 0.658);
+                     color: black;
+                     border: 1px solid black;
+                     
+                     &:hover {
+                            background-color: rgba(155, 1, 1, 0.719); 
+                     }
+              }
+       }
+       .add-grocery {
+              text-align: center;
+              max-width: 400px;
+              margin: 0 auto;
+              border: 2px solid rgba(0, 0, 0, 0.288);
+              padding: 20px;
+       }
+       .error-message {
+              display: none;
+       }
+       select[name="filter"] {
+              position: absolute;
+              right: 0;
+              top: -50px;
+              padding: 5px;
+              font-size: 20px;
+       }
+}
+

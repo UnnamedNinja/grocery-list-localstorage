@@ -1,0 +1,22 @@
+@media (max-width: 576px) {
+  .grocery-item {
+    flex-direction: column;
+  }
+  .grocery-item .grocery-name {
+    text-align: center;
+  }
+  .grocery-item .grocery-name,
+  .grocery-item select,
+  .grocery-item small {
+    margin-bottom: 5px;
+  }
+  .grocery .status-and-priority {
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+  }
+  .grocery .grocery-btns {
+    max-width: 70%;
+  }
+}
+/*# sourceMappingURL=media.css.map */
