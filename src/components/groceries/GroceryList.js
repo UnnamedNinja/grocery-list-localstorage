@@ -55,7 +55,6 @@ class GroceryList extends Component {
        }
 
        render(){
-              console.log(this.state)
               return ( 
                      <section className="grocery-list-page" >
                             <div className="container">

@@ -36,7 +36,6 @@ export default class Grocery extends Component {
        }
 
        render() {
-              console.log(this.state)
               return (
                      <section className="grocery-page">
                             <div className="container">
